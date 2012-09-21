@@ -5,3 +5,6 @@ require Rails.root.join('lib/issue_trackers/errors')
 
 # Include nested issue tracker models
 include IssueTrackers
+
+LighthouseTracker = IssueTrackers::LighthouseTracker
+PivotalLabsTracker = IssueTrackers::PivotalLabsTracker
